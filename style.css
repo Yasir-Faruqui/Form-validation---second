@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+  background: linear-gradient(to right, #78ffd6, rgb(0, 121, 145));
+}
+
+.box {
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 12px;
+}
+
+.working-img {
+  border-radius: 12px 0px 0px 12px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #78ffd6;
+  outline: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #78ffd6 !important;
+}
+.radio {
+  display: flex;
+}
+.checkbox {
+  display: flex;
+}
+.form-check-label {
+  padding: 10px 10px;
+}
+.address {
+  margin-top: 19px;
+}
+.add {
+  width: 50%;
+}
+.sub-btn {
+  padding: 5px 25px;
+  margin-top: 25px;
+  border: 1px solid white;
+  outline: transparent;
+  background-color: #02c4eb;
+  border-radius: 15px;
+  color: white;
+}
+.sub-btn:hover {
+  background-color: white;
+  color: #007991;
+  transition: 0.2s ease-in;
+  border: 1px solid #007991;
+  outline: none;
+}
+.reset-btn {
+  padding: 5px 25px;
+  margin-top: 25px;
+  border: 1px solid white;
+  outline: transparent;
+  background-color: #eb0202d2;
+  border-radius: 15px;
+  color: white;
+}
+.reset-btn:hover {
+  background-color: white;
+  color: #007991;
+  transition: 0.2s ease-in;
+  border: 1px solid #eb0202d2;
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+.top-text {
+  opacity: 0;
+}
+.table-box {
+  margin-top: 5%;
+}
+table {
+  background-color: white;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 10em;
+  color: #364043;
+  min-height: 100px;
+}
+.table-row {
+  background-color: #02c4eb;
+  border: none;
+}
+
+th {
+  border-bottom: 1px solid #364043;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #364043;
+  font-weight: 400;
+  padding: 10px 10px;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid black;
+}
+
+.disabled td {
+  color: #4f5f64;
+}
+
+@media only screen and (max-width: 900px) {
+  .working-img {
+    display: none;
+    border: none;
+  }
+  .box {
+    margin-top: 0;
+  }
+}
